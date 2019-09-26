@@ -1,0 +1,308 @@
+
+  body{
+    padding:0px;
+    margin:0px;
+    position:relative;
+    width:100%;
+    height:100%;
+    min-height:100%;
+    background-image: url("img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color:#CCCCCC;
+  }
+  header{
+    height:150px;
+    width:100%;
+  }
+
+  nav{
+  display: block;
+  margin: 0px auto;
+  height:120px;
+  width:100%;
+  padding-top: 80px;
+  text-align: center;
+  }
+
+nav a{
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:15px;
+  text-decoration:none;
+  color:black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size:25px;
+  }
+nav a:hover{
+    text-decoration: underline;
+  }
+
+ .pic{
+  background-image: url("./img/Logo.JPG");
+  width:80%;
+  height:700px;
+  margin:0px auto;
+  border-radius: 25px;
+
+  }
+  .info{
+    width:80%;
+    height:500px;
+    margin:0px auto;
+    padding-top: 50px;
+  }
+   .info p{
+     width:60%;
+    margin:0px auto;
+   }
+   .info p{
+     font-size: 30px;
+     font-style: italic;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+   }
+   .layout{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-bottom: 300px;
+   }
+   .zoom{
+     width: 30%;
+     height: 500px;
+     margin-left: 100px;
+     margin-top: 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transition: transform .3s;
+   }
+   .zoom p{
+     margin-top: 30px;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+   }
+   .zoom h1{
+     height:30px;
+     color:#30787e;
+   }
+   .project1{
+     height:550px;
+     width:100%;
+     border-radius: 25px;
+   }
+   .project1 a{
+
+   }
+   .project2{
+     height:550px;
+     width:100%;
+     border-radius: 25px;
+
+   }
+   .project2 a{
+
+   }
+   .project3{
+     height:550px;
+     width:100%;
+     border-radius: 25px;
+     background-image: url("./img/3.png");
+     background-repeat: no-repeat;
+   }
+   .project4{
+     height:550px;
+     width:100%;
+     border-radius: 25px;
+     background-image: url("./img/4.png");
+     background-repeat: no-repeat;
+   }
+
+   .zoom:hover{
+      transform: scale(1.2);
+   }
+
+    .blank{
+     margin-top: 10px;
+     width:40%;
+     height:100px;
+     float:left;
+    }
+    #resume{
+      margin-bottom: 280px;
+    }
+
+    .message{
+      background-color: #FCF3CF;
+      margin-left:435px;
+      padding-top: 20px;
+      padding-left: 80px;
+      width:43%;
+      height:620px;
+      border-radius:25px;
+      line-height: 12px;
+    }
+    .message p{
+      font-size: 17px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+    }
+    .message input{
+      width: 600px;
+      height:30px;
+    }
+    .message textarea{
+      width:600px;
+    }
+    #submitform,#resetform{
+      width:100px;
+      height:40px;
+      background-color: #FFBB33;
+      font-size: 20px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    span{
+      color: Red;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+
+     .profile{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin:0 auto;
+    background-color: #FCF3CF;
+    }
+    .profile p{
+      font-size: 35px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+    }
+    .profile div{
+      font-size:20px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+     .topskill{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin:5px auto;
+    background-color: white;
+    }
+    .topskill p{
+      font-size: 35px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+    }
+    .topskill div{
+      font-size:20px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .topskill ul{
+      list-style-type: none;
+    }
+    .topskill li{
+      float: left;
+      width: 200px;
+      height:50px;
+      line-height: 50px;
+      background-color: #F0B27A;
+      margin-left: 5px;
+      border-radius: 25px;
+      text-align: center;
+    }
+     .summary {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin:5px auto;
+    background-color: #FCF3CF;
+     }
+    .summary p{
+      font-size: 35px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+    }
+    .summary div{
+      font-size:20px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+    .selfi{
+      background-color: white;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      height:300px;
+      width:40%;
+      float: left;
+      margin-left: 80px;
+      margin-bottom: 5px;
+    }
+    .selfi image{
+      margin-top: 20px;
+    }
+
+    .contact{
+      background-color: #FCF3CF;
+      border-radius: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      height:360px;
+      width:44%;
+      float: left;
+      margin-left:10px;
+      font-size: 30px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-style: oblique;
+    }
+    .contact p{
+      font-size: 35px;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-weight: bold;
+    }
+    .contact ul li{
+      list-style-type: none;
+    }
+    .highlight{
+      display: flex;
+      flex-direction: column;
+      border-radius:25px;
+      width:91%;
+      background-color: white;
+      margin:0 auto;
+    }
+    .education{
+      margin:0 auto;
+    }
+
+  footer {
+  margin-top: 50px;
+  left: 20px;
+  width: 100%;
+  height:200px;
+  }
+
+  footer p{
+  font-size:20px;
+  font-family: monospace;
+  text-align:center;
+  }
+  footer a img{
+    margin-top:0px;
+    padding-top:0px;
+  }

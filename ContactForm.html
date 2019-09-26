@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wen Li</title>
+ <link rel="stylesheet" type="text/css" href="./style.css">
+ <script src="ContactForm_Validation.js"></script>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <a href="home.html">HOME</a>
+    <a href="PortfolioOfWork.html">Portfolio of Work</a>
+    <a href="Resume.html">Resume</a>
+    <a href="ContactForm.html">Contact Form</a>
+  </nav>
+</header>
+
+<main>
+  <div class="message">
+   <form id="contactForm" onsubmit="return validateForm()" onreset="return checkReset()" action="mailto:coco.li7777@gmail.com" method="post">
+
+     <p>Name: </p>
+     <input type="text" name="name" id="myname"><br><br>
+      <span id="nameError"></span>
+      <p>Email:</p>
+      <br> <input type="text" name="email"><br><br>
+      <span id="emailError"></span>
+      <span id="emailFormatError"></span>
+      <p>Subject: </p>
+      <input type="text" name="subject"><br><br>
+      <span id="subjectError"></span>
+     <p>Message:</p>
+      <textarea name="message" rows="8" cols="80"></textarea><br><br>
+      <span id="messageError"></span>
+      <br><br>
+      <input type="reset" value="Reset" id="resetform"/>
+      <input type="submit" value="Send" id="submitform"/>
+
+
+
+   </form>
+ </div>
+</main>
+
+<footer>
+  <p>Find us on Facebook and Instergram</p>
+  <p>
+    <a href="http://facebook.com"><img src="img/fb.png" alt="facebook"></a>
+    <a href="http://outlook.live.com"><img src="img/ins.png" alt="ins"></a>
+  </p>
+</footer>
+
+</body>
+</html>
